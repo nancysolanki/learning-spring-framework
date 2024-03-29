@@ -5,8 +5,8 @@ public class AppGamingBasicJava {
 
     public static void main(String[] args) {
         
-        var marioGame= new MarioGame();
-        var runningGame=new RunningGame(marioGame);
+        var game= new MarioGame();
+        var runningGame=new RunningGame(game);
         runningGame.run();
 
     }
