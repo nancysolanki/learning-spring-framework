@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AppGamingBasicJava",
+            "request": "launch",
+            "mainClass": "com.in28minutes.learningspringframework.AppGamingBasicJava",
+            "projectName": "learning-spring-framework"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-LearningSpringFrameworkApplication<learning-spring-framework>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.in28minutes.learningspringframework.LearningSpringFrameworkApplication",
+            "projectName": "learning-spring-framework",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
